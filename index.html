@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Discount calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+        <section class="container pt-5 w-75">
+            <div class="row">
+                <div class="col-6">
+                    <img src="img.jpg" class="img-fluid" alt="...">
+                </div>
+                <div class="col-6">
+                  <h2 class="pt-5">Toy Car</h2>
+                  <p class="">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div>
+
+                  </div>
+                  <div>
+                    <div class="d-flex justify-content-between">
+                        <h3>Price - ৳<span id="product-price">4500</span></h3>
+                        <div class="d-flex">
+                            <input id="cupon-field" class="form-control" type="text" placeholder="Apply your cupon">
+                            <button id="btn-apply" class="btn btn-warning">Apply</button>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center border w-25">
+                        <button id="remove-quantity" class="btn border-end"><i class="fa-solid fa-minus"></i></button>
+                        <div class="">
+                            <p id="quantity" class="h3 m-0">1</p>
+                        </div>
+                        <button id="add-quantity" class="btn border-start"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="d-flex mb-3 mt-3">
+                        <h5 class="text-secondary">Rating -&nbsp;</h5>
+                        <div>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-warning"></i>
+                            <i class="fa-solid fa-star text-secondary"></i>
+                        </div>
+                        <p class="h5 text-secondary">&nbsp;4.5</p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                  <div class="mt-5">
+                    <p><span class="h6">Cupon for 30% Discount - </span>DOM30</p>
+                    <p><span class="h6">Cupon for 50% Discount - </span>DOM50</p>
+                  </div>
+                </div>
+              </div>
+        </section>
+    </main>
+    <script src="js/discount.js"></script>
+    <script src="js/quantity.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
